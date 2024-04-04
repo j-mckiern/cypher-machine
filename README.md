@@ -1,2 +1,3 @@
 # cypher-machine
-Website that allows the user to input text, choose a cipher method, and encrypt or decrypt the entered text.
+##About the Project
+This is my first personal project that I created. It is a website that allows the user to input text, choose a cipher method, and encrypt/decrypt the entered text. I built this project because I was interested in strengthening my html/css knowledge and learning javascript. I decided to build a website that allows the user to encrypt/decrypt messages because I had learned about different cryptography methods while taking a cybersecurity class and was interested in implementing them into code. By completing this project I reinforced my html and css, learned javascript, and implemented cryptography knowledge that I gained from my university class.
