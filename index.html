@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial scal=1">
+        <title>Cypher Machine</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="box">
+            <h1>Cypher Machine</h1>
+            <div class="cypher-form">
+                <h3>Cypher Method:</h3>
+                <div class="cypher-type1">
+                    <input type="radio" id="cypher-type1" name="cypher-method" value="type1" checked>
+                    <label for="cypher-type1" class="cypher-label">Polyibus</label>
+                </div>
+                <div class="cypher-type2">
+                    <input type="radio" id="cypher-type2" name="cypher-method" value="type2">
+                    <label for="cypher-type2" class="cypher-label">Hill</label>
+                </div>
+                <div class="cypher-type3">
+                    <input type="radio" id="cypher-type3" name="cypher-method" value="type3">
+                    <label for="cypher-type3" class="cypher-label">Rail Fence</label>
+                </div>
+            </div>
+            <div class="message-input">
+                <textarea id="input-box" placeholder="Enter text here"></textarea>
+            </div>
+            <div class="crypt-submit">
+                <button type="button" id="encrypt-button">Encrypt</button>
+                <button type="button" id="decrypt-button">Decrypt</button>
+            </div>
+            <div class="results-display" id="results-display"></div>
+            <div class="message-output" id="message-output"></div>
+        </div>
+        <script src="./cipherMethods/polybius.js"></script>
+        <script src="./cipherMethods/hill.js"></script>
+        <script src="./cipherMethods/railFence.js"></script>
+        <script src="script.js" type="module"></script>
+    </body>
+</html>
