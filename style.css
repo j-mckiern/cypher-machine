@@ -23,6 +23,7 @@ body{
     justify-content: center;
     flex-direction: row; 
     margin: 20px;
+    margin-right: 10px;
     align-items: center;
 }
 .cypher-type1, .cypher-type2, .cypher-type3, h3{
